@@ -1,0 +1,29 @@
+{
+  "name": "PerlegoLoginScreen_Cypress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pirasanthan-jesugeevegan/cypress_PerlegoLoginForm.git"
+  },
+  "keywords": [],
+  "author": "Pirasanthan Jesugeevegan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pirasanthan-jesugeevegan/cypress_PerlegoLoginForm/issues"
+  },
+  "homepage": "https://github.com/pirasanthan-jesugeevegan/cypress_PerlegoLoginForm#readme",
+  "dependencies": {
+    "cypress": "^4.11.0"
+  },
+  "devDependencies": {
+    "cypress-cucumber-preprocessor": "^2.5.4"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  }
+}
