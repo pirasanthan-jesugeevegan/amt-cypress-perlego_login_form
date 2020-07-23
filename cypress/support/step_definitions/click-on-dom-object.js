@@ -1,6 +1,8 @@
+import * as selectors from './mappings-importer.js';
+
 Given('the user clicks on {string}', (elementSelector) => {
 
     cy
-        .get(elementSelector)
+        .get(selectors[elementSelector])
         .click();
 });
