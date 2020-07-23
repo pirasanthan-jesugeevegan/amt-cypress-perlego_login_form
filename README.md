@@ -1,7 +1,7 @@
 # Perlego Login Form
 This is a task to Automate a login form using Cypress and Cucumber, Please see below for the Test Case that are automated 
 
-## **Test Scenario**: Login Form
+## **Test Scenario**: Login Function
 
 | Test Case Number | Test Case |
 |--|--|
