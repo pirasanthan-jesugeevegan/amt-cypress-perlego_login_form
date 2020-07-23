@@ -5,3 +5,4 @@ npm-debug.log
 cypress/screenshots
 test-results/
 cypress/reports/
+cypress/integration/test.feature
