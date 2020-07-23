@@ -24,6 +24,6 @@
     "cypress-cucumber-preprocessor": "^2.5.4"
   },
   "cypress-cucumber-preprocessor": {
-    "nonGlobalStepDefinitions": true
+    "nonGlobalStepDefinitions": false
   }
 }
