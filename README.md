@@ -1,10 +1,7 @@
-
-
-
 # Perlego Login Form
 This is a task to Automate a login form using Cypress and Cucumber, Please see below for the Test Case that are automated 
 
-## **Test Scenario**: Login Form
+## **Test Scenario**: Login Function
 
 | Test Case Number | Test Case |
 |--|--|
@@ -29,10 +26,18 @@ This is a task to Automate a login form using Cypress and Cucumber, Please see b
 1.  clone the repo
 2.  `npm install`
 
-## [](https://github.com/pirasanthan-jesugeevegan/Buy-Product-E-commerce#run-tests)Run tests
+## Run tests
+**Pretest** - Create a 'reports' folder in cypress folder
 
-Run all test:
+ - Run test on UI
+```
+npx cypress open
+```
 
+
+- Run test on Command Line:
+
+**Note** - Some Scenarios may fail on command line due to website response time  
 ```
 npm run test
 
@@ -43,3 +48,10 @@ Run test with tags:  **Tags**  - @e2e @TC001 @TC002 @TC003
 ```
 npm run test -e TAGS='e2e'
 ```
+
+
+## Technology used:
+
+ - Cypress
+ - Cucumber
+ - Mochawsome
