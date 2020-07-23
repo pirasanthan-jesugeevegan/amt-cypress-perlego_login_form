@@ -1,5 +1,4 @@
 
-
 Given('the field {string} contains {string}', (elementSelector, assertionValue) => {
     cy
         .get(elementSelector)
