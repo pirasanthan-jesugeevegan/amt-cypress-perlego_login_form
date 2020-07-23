@@ -1,5 +1,6 @@
+import * as selectors from './mappings-importer.js';
 Given('the user clears {string}', (elementSelectorKey) => {
     cy
-        .get(elementSelectorKey)
+        .get(selectors[elementSelectorKey])
         .clear();
 });

@@ -1,0 +1,11 @@
+{
+    "email_Input": "input[type='email']",
+    "password_Input": "input[type='password']",
+    "logIn_Button": "#actionButton",
+    "rememberMe_Checkbox": "#remember-me-checkbox",
+    "forgetPassword_Link": "a[href='/password-reset']",
+    "signUp_Link": "a[href='/sign-up']",
+    "loginErrorMessage": "text__detail _1qtDoLQxoyUAeqNqAurN39",
+    "userIcon": "#userIcon",
+    "myEmail_Label": ".sc-fOICqy"
+}

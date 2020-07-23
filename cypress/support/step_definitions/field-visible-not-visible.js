@@ -1,6 +1,8 @@
+import * as selectors from './mappings-importer.js';
+
 const implementation = (elementKey, condition) => {
 
-    const element = elementKey;
+    const element = selectors[elementKey];
 
     cy
         .get(element)
