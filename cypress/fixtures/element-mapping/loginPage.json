@@ -1,11 +1,13 @@
 {
-    "email_Input": "input[type='email']",
-    "password_Input": "input[type='password']",
-    "logIn_Button": "#actionButton",
-    "rememberMe_Checkbox": "#remember-me-checkbox",
-    "forgetPassword_Link": "a[href='/password-reset']",
-    "signUp_Link": "a[href='/sign-up']",
-    "loginErrorMessage": "text__detail _1qtDoLQxoyUAeqNqAurN39",
-    "userIcon": "#userIcon",
-    "myEmail_Label": ".sc-fOICqy"
+  "email_input": "[name=email]",
+  "password_input": "[name=password]",
+  "continue_button": ".sc-eAKXzc",
+  "keep_me_login_checkbox": "[name=LoginFormEmailStayLoggedIn]",
+  "forget_password_link": "a[href='/password-reset']",
+  "sign_up_link": "a[href='/sign-up']",
+  "login_error_message": "[data-component-locator=password-error-message]",
+  "login_email_error_message": "[data-test-locator=input-group-error-wrapper]",
+  "user_icon": "#NavBarUserIcon",
+  "my_email_label": ".sc-fOICqy",
+  "trending_month": ".sc-fdJbru"
 }
