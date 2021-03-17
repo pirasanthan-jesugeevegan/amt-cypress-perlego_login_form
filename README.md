@@ -1,5 +1,19 @@
-# Perlego Login Form
-This is a task to Automate a login form using Cypress and Cucumber, Please see below for the Test Case that are automated 
+
+<p align="center">
+ <img src="https://upload.wikimedia.org/wikipedia/commons/d/db/Perlego_logo.png" />
+
+ </p>
+ <p align="center">
+ <img height="50px" src="https://miro.medium.com/max/7200/1*Jkb_tsMBOvL6wQ8bzldu8Q.png" />
+  <img height="50px" src="https://cdn.iconscout.com/icon/free/png-256/mocha-1-1175012.png" /> 
+  <img height="50px" src="https://brandslogos.com/wp-content/uploads/thumbs/cucumber-logo-vector.svg" />
+  
+ </p>
+<h1 align="center">Expedia Hotel Journey</h1>
+
+This is a task to Automate the [Perlego Login Form](https://www.perlego.com/login) using Cypress and Cucumber with Mochawesome report, Please see below for the Test Case that are automated 
+
+
 
 ## **Test Scenario**: Login Function
 
@@ -21,37 +35,30 @@ This is a task to Automate a login form using Cypress and Cucumber, Please see b
 |TC014|Verify that User is not able to Login with blank Username or Password|
 |TC015|Verify the password can be copy-pasted|
 
+Note - These are one of the few to be automated
 ## Install
 
 1.  clone the repo
-2.  `npm install`
+2.  `npm install` or 	`yarn install`
+
 
 ## Run tests
-**Pretest** - Create a 'reports' folder in cypress folder
+**CLI** - Run CLI
 
- - Run test on UI
+ 
 ```
-npx cypress open
+npx cypress run
 ```
-
-
-- Run test on Command Line:
-
-**Note** - Some Scenarios may fail on command line due to website response time  
+**Cypress UI** - Run on Cypress UI
+ 
 ```
-npm run test
-
+yarn || npm test:chrome
 ```
-
-Run test with tags:  **Tags**  - @e2e @TC001 @TC002 @TC003
-
-```
-npm run test -e TAGS='e2e'
-```
-
-
 ## Technology used:
 
- - Cypress
+ - Cypress 
  - Cucumber
- - Mochawsome
+ - Mochawesome
+
+## DEMO
+[Live report - Schedule to run everyday ](https://pirasanthan-jesugeevegan.github.io/amt-cypress-perlego_login_form/)
