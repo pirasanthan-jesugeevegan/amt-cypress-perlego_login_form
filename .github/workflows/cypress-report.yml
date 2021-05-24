@@ -16,11 +16,11 @@ jobs:
       - uses: actions/checkout@v2
       - name: Install cypress and verify
         run: |
-          yarn ci
-          $(yarn bin)/cypress verify
+          npm ci
+          $(npm bin)/cypress verify
 
       - name: Run Cypress tests
-        run: yarn run test:chrome
+        run: npm run test:chrome
         continue-on-error: true
       - name: Copy test execution videos and screenshots
         run: |
@@ -28,9 +28,9 @@ jobs:
           cp -r cypress/videos public/videos
           cp -r cypress/screenshots public/screenshots
       - name: Merge test reports
-        run: yarn run combine:report
+        run: npm run combine:report
       - name: Generate HTML report
-        run: yarn run generate:report
+        run: npm run generate:report
 
       - name: Deploy report page to GitHub Page
         uses: peaceiris/actions-gh-pages@v3
