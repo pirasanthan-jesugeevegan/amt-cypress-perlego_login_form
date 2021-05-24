@@ -1,7 +1,7 @@
 {
   "email_input": "[name=email]",
   "password_input": "[name=password]",
-  "continue_button": ".sc-eAKXzc",
+  "continue_button": ".sc-ESoVU",
   "keep_me_login_checkbox": "[name=LoginFormEmailStayLoggedIn]",
   "forget_password_link": "a[href='/password-reset']",
   "sign_up_link": "a[href='/sign-up']",
